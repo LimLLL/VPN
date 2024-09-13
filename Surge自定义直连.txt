@@ -1,15 +1,15 @@
-DOMAIN-KEYWORD,wangzhangli.top
-DOMAIN-KEYWORD,chunyan.tech
-DOMAIN-KEYWORD,zhuanxiangzhaiquan.com 
-DOMAIN-KEYWORD,bhzh.tech
+DOMAIN-KEYWORD,wangzhangli.top // 王老师域名
+DOMAIN-KEYWORD,chunyan.tech // 王老师老婆域名
+DOMAIN-KEYWORD,zhuanxiangzhaiquan.com // 专项债券信息网
+DOMAIN-KEYWORD,bhzh.tech // 博华众环公司域名
 DOMAIN-KEYWORD,useforall.top
-DOMAIN-SUFFIX,cscse.edu.cn
-DOMAIN-SUFFIX,163.com
-DOMAIN-KEYWORD,netease
-DOMAIN,t.audiences.me
-DOMAIN,tracker.cinefiles.info
-DOMAIN,tracker.m-team.io
-DOMAIN,tracker.m-team.cc
-DOMAIN-KEYWORD,pterclub.com
-DOMAIN-KEYWORD,hhanclub
-DOMAIN-KEYWORD,hhan.club
+DOMAIN-SUFFIX,cscse.edu.cn // 教留服
+DOMAIN-SUFFIX,163.com // 网易163
+DOMAIN-KEYWORD,netease // 网易
+DOMAIN,t.audiences.me // PT站：观众
+DOMAIN,tracker.cinefiles.info // PT站：观众Tracker
+DOMAIN,tracker.m-team.io // PT站：馒头Tracker
+DOMAIN,tracker.m-team.cc // PT站：馒头Tracker
+DOMAIN-KEYWORD,pterclub.com // PT站：猫站
+DOMAIN-KEYWORD,hhanclub // PT站：猫站Tracker
+DOMAIN-KEYWORD,hhan.club // PT站：憨憨
