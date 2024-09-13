@@ -1,0 +1,2 @@
+payload:
+  - DOMAIN-KEYWORD,wangzhangli.top,DIRECT # 王老师域名
