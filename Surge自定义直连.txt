@@ -1,11 +1,11 @@
-DOMAIN-KEYWORD,wangzhangli.top // 王老师域名
-DOMAIN-KEYWORD,chunyan.tech // 王老师老婆域名
+DOMAIN-KEYWORD,wangzhangli.top
+DOMAIN-KEYWORD,chunyan.tech
 DOMAIN-KEYWORD,zhuanxiangzhaiquan.com // 专项债券信息网
-DOMAIN-KEYWORD,bhzh.tech // 博华众环公司域名
+DOMAIN-KEYWORD,bhzh.tech
 DOMAIN-KEYWORD,useforall.top
 DOMAIN-SUFFIX,cscse.edu.cn // 教留服
-DOMAIN-SUFFIX,163.com // 网易163
-DOMAIN-KEYWORD,netease // 网易
+DOMAIN-SUFFIX,163.com
+DOMAIN-KEYWORD,netease
 DOMAIN,t.audiences.me // PT站：观众
 DOMAIN,tracker.cinefiles.info // PT站：观众Tracker
 DOMAIN,tracker.m-team.io // PT站：馒头Tracker
