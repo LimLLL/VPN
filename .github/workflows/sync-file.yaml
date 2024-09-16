@@ -16,10 +16,10 @@ jobs:
       - name: Define files to fetch
         run: |
           echo "files=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list Microsoft.list" >> $GITHUB_ENV
-          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml" >> $GITHUB_ENV
-          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml" >> $GITHUB_ENV
-          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml" >> $GITHUB_ENV
-          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml" >> $GITHUB_ENV
+          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml" >> $GITHUB_ENV
+          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml" >> $GITHUB_ENV
+          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml" >> $GITHUB_ENV
+          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml" >> $GITHUB_ENV
 
       - name: Fetch files
         run: |
