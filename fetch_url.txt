@@ -1,6 +1,6 @@
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list DisneyPlus.list
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list Microsoft.list
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list DisneyPlus.list
