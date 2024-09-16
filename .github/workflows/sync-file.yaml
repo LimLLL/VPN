@@ -2,7 +2,7 @@ name: Sync File
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天零点执行一次
+    - cron: "0 0 * * *" # 每天零点执行一次
   workflow_dispatch:
 
 jobs:
@@ -15,11 +15,7 @@ jobs:
 
       - name: Define files to fetch
         run: |
-          echo "files=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list Microsoft.list" >> $GITHUB_ENV
-          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml" >> $GITHUB_ENV
-          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml" >> $GITHUB_ENV
-          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml" >> $GITHUB_ENV
-          echo "files=https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml" >> $GITHUB_ENV
+          echo "files=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list Microsoft.list,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml" >> $GITHUB_ENV
 
       - name: Fetch files
         run: |
@@ -32,9 +28,9 @@ jobs:
               echo "Successfully fetched $url"
             else
               echo "Failed to fetch $url. Skipping update."
-              exit 1
             fi
           done
+
 
       - name: Commit and push changes
         run: |
