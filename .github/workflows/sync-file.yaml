@@ -13,24 +13,36 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v2
 
-      - name: Define files to fetch
-        run: |
-          echo "files=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list Microsoft.list,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml" >> $GITHUB_ENV
+      # - name: Define files to fetch
+      #   run: |
+      #     echo "files=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list Microsoft.list,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml netflix.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml" >> $GITHUB_ENV
+
+      # - name: Fetch files
+      #   run: |
+      #     IFS=',' read -ra ADDR <<< "${{ env.files }}"
+      #     for file in "${ADDR[@]}"; do
+      #       url=$(echo $file | cut -d' ' -f1)
+      #       local_path=$(echo $file | cut -d' ' -f2)
+      #       echo "Fetching $url..."
+      #       if curl -o "$local_path" "$url"; then
+      #         echo "Successfully fetched $url"
+      #       else
+      #         echo "Failed to fetch $url. Skipping update."
+      #       fi
+      #     done
 
       - name: Fetch files
         run: |
-          IFS=',' read -ra ADDR <<< "${{ env.files }}"
-          for file in "${ADDR[@]}"; do
-            url=$(echo $file | cut -d' ' -f1)
-            local_path=$(echo $file | cut -d' ' -f2)
+          while IFS= read -r line; do
+            url=$(echo "$line" | cut -d' ' -f1)
+            local_path=$(echo "$line" | cut -d' ' -f2)
             echo "Fetching $url..."
             if curl -o "$local_path" "$url"; then
               echo "Successfully fetched $url"
             else
               echo "Failed to fetch $url. Skipping update."
             fi
-          done
-
+          done < fetch_url.txt
 
       - name: Commit and push changes
         run: |
