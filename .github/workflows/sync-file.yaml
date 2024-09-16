@@ -28,7 +28,7 @@ jobs:
             url=$(echo $file | cut -d' ' -f1)
             local_path=$(echo $file | cut -d' ' -f2)
             echo "Fetching $url..."
-            if curl -o "$local_path" -f "$url"; then
+            if curl -o "$local_path" "$url"; then
               echo "Successfully fetched $url"
             else
               echo "Failed to fetch $url. Skipping update."
