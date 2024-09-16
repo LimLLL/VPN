@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: '0 0 * * *'  # 每天零点执行一次
   workflow_dispatch:
-    
 
 jobs:
   sync-file:
@@ -16,17 +15,16 @@ jobs:
 
       - name: Define files to fetch
         run: |
-          echo "files=(
-            'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list /tmp/Microsoft.list'
-            'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml /tmp/netflix.yaml'
-            'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml /tmp/netflix-geoip.yaml'
-            'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml /tmp/paypal.yaml'
-            'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml /tmp/spotify.yaml'
-          )" >> $GITHUB_ENV
+          echo "files=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list /tmp/Microsoft.list" >> $GITHUB_ENV
+          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml /tmp/netflix.yaml" >> $GITHUB_ENV
+          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml /tmp/netflix-geoip.yaml" >> $GITHUB_ENV
+          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml /tmp/paypal.yaml" >> $GITHUB_ENV
+          echo "files+=,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml /tmp/spotify.yaml" >> $GITHUB_ENV
 
       - name: Fetch files
         run: |
-          for file in ${{ env.files }}; do
+          IFS=',' read -ra ADDR <<< "${{ env.files }}"
+          for file in "${ADDR[@]}"; do
             url=$(echo $file | cut -d' ' -f1)
             local_path=$(echo $file | cut -d' ' -f2)
             echo "Fetching $url..."
@@ -42,7 +40,7 @@ jobs:
         run: |
           git config --local user.email "lim@useforall.top"
           git config --local user.name "limlll"
-          git add /tmp
+          git add /tmp/*
           git commit -m "Update files from other repositories" || echo "No changes to commit"
           git push
         env:
