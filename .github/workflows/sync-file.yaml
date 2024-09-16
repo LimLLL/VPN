@@ -38,11 +38,12 @@ jobs:
             fi
           done
 
-      - name: Save File and Commit and push changes
+      - name: Commit and push changes
         run: |
-          git config --local user.name limlll
-          git add
-          git commit -m "Update file from another repository"
+          git config --local user.email "lim@useforall.top"
+          git config --local user.name "limlll"
+          git add /tmp
+          git commit -m "Update files from other repositories" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
