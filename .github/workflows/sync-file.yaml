@@ -33,7 +33,7 @@ jobs:
 
       - name: Fetch files
         run: |
-          cat fetch_url.txt
+          mkdir -p geo
           while IFS= read -r line; do
             url=$(echo "$line" | cut -d' ' -f1)
             local_path=$(echo "$line" | cut -d' ' -f2)
