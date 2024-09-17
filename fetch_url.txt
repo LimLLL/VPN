@@ -4,3 +4,7 @@ https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netf
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml netflix-geoip.yaml
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml paypal.yaml
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml spotify.yaml
+https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt reject.txt
+https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat geo/geosite.dat
+https://github.com/MetaCubeX/meta-rules-dat/blob/release/geoip.metadb geo/geoip.metadb
+https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip gh-pages.zip
