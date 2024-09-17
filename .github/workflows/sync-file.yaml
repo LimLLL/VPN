@@ -38,7 +38,7 @@ jobs:
             url=$(echo "$line" | cut -d' ' -f1)
             local_path=$(echo "$line" | cut -d' ' -f2)
             echo "Fetching $url..."
-            if curl -o "$local_path" "$url"; then
+            if wget -O "$local_path" "$url"; then
               echo "Successfully fetched $url"
             else
               echo "Failed to fetch $url. Skipping update."
