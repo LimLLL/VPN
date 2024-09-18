@@ -14,6 +14,7 @@ payload:
   - DOMAIN-KEYWORD,pterclub.com # PT站：猫站
   - DOMAIN-KEYWORD,hhanclub # PT站：憨憨
   - DOMAIN-KEYWORD,hhan.club # PT站：憨憨Tracker
+  - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
   - PROCESS-NAME,leaf
@@ -90,3 +91,4 @@ payload:
   - PROCESS-NAME,xdm.exe
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
+
