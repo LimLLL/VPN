@@ -15,6 +15,7 @@ payload:
   - DOMAIN-KEYWORD,hhanclub # PT站：憨憨
   - DOMAIN-KEYWORD,hhan.club # PT站：憨憨Tracker
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
+  - DOMAIN-KEYWORD,test-ipv6.com
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
   - PROCESS-NAME,leaf
