@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,zhuanxiangzhaiquan.com # 专项债券信息网
   - DOMAIN-KEYWORD,bhzh.tech
   - DOMAIN-KEYWORD,useforall.top
+  - DOMAIN-KEYWORD,useforall.com
   - DOMAIN-SUFFIX,cscse.edu.cn # 教留服
   - DOMAIN-SUFFIX,163.com
   - DOMAIN-KEYWORD,netease
