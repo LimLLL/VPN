@@ -46,6 +46,14 @@ jobs:
             fi
           done < fetch_url.txt
 
+      - name: Marge all file but exclude cn.txt
+        run: |
+          git clone --branch=release https://github.com/Loyalsoldier/geoip /tmp/geoip
+          cp /tmp/geoip/text/* pure_text_ip/
+          rm -f pure_text_ip/cn.txt
+          rm -f pure_text_ip/all.txt
+          cat pure_text_ip/*.txt > pure_text_ip/all.txt
+
       - name: Commit and push changes
         run: |
           git config --local user.email "lim@useforall.top"
