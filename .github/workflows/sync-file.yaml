@@ -30,11 +30,6 @@ jobs:
       #         echo "Failed to fetch $url. Skipping update."
       #       fi
       #     done
-      - name: Check folder and make it
-        run: |
-          mkdir -p geo
-          echo "geo folder created"
-          make -p pure_text_ip
 
       - name: Fetch files
         run: |
