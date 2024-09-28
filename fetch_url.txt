@@ -8,3 +8,8 @@ https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt re
 https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat ./geo/geosite.dat
 https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb ./geo/geoip.metadb
 https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip gh-pages.zip
+https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/text/telegram.txt ./pure_text_ip/telegram.txt
+https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/text/netflix.txt ./pure_text_ip/netflix.txt
+https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/text/cloudflare.txt ./pure_text_ip/cloudflare.txt
+https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/text/cloudfront.txt ./pure_text_ip/cloudfront.txt
+https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/text/twitter.txt ./pure_text_ip/twitter.txt
