@@ -1,7 +1,7 @@
 payload:
-  - IP-CIDR,146.235.17.62/32,DIRECT
-  - IP-CIDR,140.238.120.210/32,DIRECT
-  - IP-CIDR,129.150.48.114/32,DIRECT
+  - IP-CIDR,146.235.17.62/32,DIRECT,no-resolve
+  - IP-CIDR,140.238.120.210/32,DIRECT,no-resolve
+  - IP-CIDR,129.150.48.114/32,DIRECT,no-resolve
   - DOMAIN-KEYWORD,wangzhangli.top
   - DOMAIN-KEYWORD,chunyan.tech
   - DOMAIN-KEYWORD,zhuanxiangzhaiquan.com # 专项债券信息网
@@ -17,6 +17,9 @@ payload:
   - DOMAIN,tracker.m-team.cc # PT站：馒头Tracker
   - DOMAIN-KEYWORD,pterclub.com # PT站：猫站
   - DOMAIN-KEYWORD,hhanclub # PT站：憨憨
+  - IP-CIDR,172.67.166.162/32,DIRECT,no-resolve # PT站：憨憨
+  - IP-CIDR,104.21.34.246/32,DIRECT,no-resolve # PT站：憨憨
+  - IP-CIDR,2606:4700:3032::/48,DIRECT,no-resolve # PT站：憨憨
   - DOMAIN-KEYWORD,hhan.club # PT站：憨憨Tracker
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - DOMAIN-KEYWORD,test-ipv6.com
