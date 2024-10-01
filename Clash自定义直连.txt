@@ -14,6 +14,7 @@ payload:
 
   - DOMAIN,www.pttime.org # PT站：PT时间
 
+  - DOMAIN,ubits.club # PT站：UBits
   - DOMAIN,t.ubits.club # PT站：UBits
 
   - DOMAIN,pt.btschool.club # PT站：学校
