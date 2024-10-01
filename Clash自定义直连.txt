@@ -9,18 +9,34 @@ payload:
   - DOMAIN-KEYWORD,useforall.top
   - DOMAIN-KEYWORD,useforall.com
   - DOMAIN-SUFFIX,cscse.edu.cn # 教留服
-  - DOMAIN-SUFFIX,163.com
-  - DOMAIN-KEYWORD,netease
   - DOMAIN,t.audiences.me # PT站：观众
-  - DOMAIN,tracker.cinefiles.info # PT站：观众Tracker
-  - DOMAIN,tracker.m-team.io # PT站：馒头Tracker
-  - DOMAIN,tracker.m-team.cc # PT站：馒头Tracker
-  - DOMAIN-KEYWORD,pterclub.com # PT站：猫站
-  - DOMAIN-KEYWORD,hhanclub # PT站：憨憨
+  - DOMAIN,tracker.cinefiles.info # PT站：观众
+
+  - DOMAIN,www.pttime.org # PT站：PT时间
+
+  - DOMAIN,t.ubits.club # PT站：UBits
+
+  - DOMAIN,pt.btschool.club # PT站：学校
+
+  - DOMAIN,hhanclub.top # PT站：憨憨
+  - DOMAIN,hhan.club # PT站：憨憨
+  - DOMAIN,tracker.hhan.club # PT站：憨憨
   - IP-CIDR,172.67.166.162/32,DIRECT,no-resolve # PT站：憨憨
   - IP-CIDR,104.21.34.246/32,DIRECT,no-resolve # PT站：憨憨
   - IP-CIDR,2606:4700:3032::/48,DIRECT,no-resolve # PT站：憨憨
-  - DOMAIN-KEYWORD,hhan.club # PT站：憨憨Tracker
+
+  - DOMAIN,tracker.zhuque.in # PT站：朱雀
+
+  - DOMAIN,tracker.pterclub.com # PT站：猫站
+
+  - DOMAIN,tracker.leaves.red # PT站：红叶
+  - DOMAIN,tracker2.leaves.red # PT站：红叶
+  - DOMAIN,tracker3.leaves.red # PT站：红叶
+
+  - DOMAIN,pt.soulvoice.club # PT站：聆音
+
+  - DOMAIN,ptchina.org # PT站：铂金学院
+
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - DOMAIN-KEYWORD,test-ipv6.com
   - PROCESS-NAME,hysteria
