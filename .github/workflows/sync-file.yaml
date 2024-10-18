@@ -34,7 +34,6 @@ jobs:
       - name: Fetch files
         run: |
           mkdir -p geo
-          mkdir -p pure_text_ip
           while IFS= read -r line; do
             url=$(echo "$line" | cut -d' ' -f1)
             local_path=$(echo "$line" | cut -d' ' -f2)
