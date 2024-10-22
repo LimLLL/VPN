@@ -1,4 +1,6 @@
 payload:
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  
   - DOMAIN-KEYWORD,wangzhangli.top
   - DOMAIN-KEYWORD,chunyan.tech
   - DOMAIN-KEYWORD,zhuanxiangzhaiquan.com # 专项债券信息网
