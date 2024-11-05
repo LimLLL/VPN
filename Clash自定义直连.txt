@@ -37,6 +37,9 @@ payload:
 
   - DOMAIN,ptchina.org # PT站：铂金学院
 
+  - DOMAIN,tracker.m-team.io # PT站：馒头
+  - DOMAIN,tracker.m-team.cc # PT站：馒头
+
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - DOMAIN-KEYWORD,test-ipv6.com
   - PROCESS-NAME,hysteria
