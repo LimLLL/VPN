@@ -40,6 +40,7 @@ payload:
   - DOMAIN,tracker.m-team.io # PT站：馒头
   - DOMAIN,tracker.m-team.cc # PT站：馒头
 
+  - DOMAIN,tracker01.ilovelemonhd.me # PT站：柠檬
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - DOMAIN-KEYWORD,test-ipv6.com
   - PROCESS-NAME,hysteria
