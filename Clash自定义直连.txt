@@ -21,6 +21,7 @@ payload:
   - DOMAIN,hhanclub.top # PT站：憨憨
   - DOMAIN,hhan.club # PT站：憨憨
   - DOMAIN,tracker.hhan.club # PT站：憨憨
+  - DOMAIN,tracker.hhanclub.top # PT站：憨憨
   - IP-CIDR,172.67.166.162/32,DIRECT,no-resolve # PT站：憨憨
   - IP-CIDR,104.21.34.246/32,DIRECT,no-resolve # PT站：憨憨
   - IP-CIDR,2606:4700:3032::/48,DIRECT,no-resolve # PT站：憨憨
