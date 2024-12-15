@@ -12,3 +12,4 @@ https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metad
 https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip gh-pages.zip
 https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/Clash/Claude/Claude.yaml Claude.yaml
 https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/Clash/Gemini/Gemini.yaml Gemini.yaml
+https://github.com/deardeer7/custom-clash-rules/raw/refs/heads/main/openAI.list openai.list
