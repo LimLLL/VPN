@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,wangzhangli.top
   - DOMAIN-KEYWORD,chunyan.tech
   - DOMAIN-KEYWORD,zhuanxiangzhaiquan.com # 专项债券信息网
+  - DOMAIN-KEYWORD,chinabond
   - DOMAIN-KEYWORD,bhzh.tech
   - DOMAIN-KEYWORD,useforall.top
   - DOMAIN-KEYWORD,useforall.com
