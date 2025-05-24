@@ -48,6 +48,7 @@ payload:
   - DOMAIN,tracker.rainbowisland.co # PT站：CHDBits
   - DOMAIN,chdbits.xyz # PT站：CHDBits
 
+  - DOMAIN-KEYWORD,115.com
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - DOMAIN-KEYWORD,test-ipv6.com
   - PROCESS-NAME,hysteria
