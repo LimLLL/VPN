@@ -8,6 +8,7 @@ payload:
   - DOMAIN-KEYWORD,bhzh.tech
   - DOMAIN-KEYWORD,useforall.top
   - DOMAIN-KEYWORD,useforall.com
+  - DOMAIN-KEYWORD,eo.mk
   - DOMAIN-SUFFIX,cscse.edu.cn # 教留服
   - DOMAIN,t.audiences.me # PT站：观众
   - DOMAIN,tracker.cinefiles.info # PT站：观众
