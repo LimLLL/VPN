@@ -31,6 +31,7 @@ payload:
   - DOMAIN,tracker.zhuque.in # PT站：朱雀
 
   - DOMAIN,tracker.pterclub.com # PT站：猫站
+  - DOMAIN,tracker.pterclub.net # PT站：猫站
 
   - DOMAIN,tracker.leaves.red # PT站：红叶
   - DOMAIN,tracker2.leaves.red # PT站：红叶
