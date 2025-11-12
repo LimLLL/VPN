@@ -2,7 +2,7 @@ name: Sync File
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天零点执行一次
+    - cron: "0 0 */7 * *" # 每周天零点执行一次
   workflow_dispatch:
 
 jobs:
