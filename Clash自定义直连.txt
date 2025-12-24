@@ -2,6 +2,7 @@ payload:
   - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
   - DOMAIN-KEYWORD,4.a.f.e.0.7.4.0.1.0.0.2
   - DOMAIN-KEYWORD,oo9.dpdns.org
+  - DOMAIN-KEYWORD,wqd.me
 
   - DOMAIN-KEYWORD,wangzhangli.top
   - DOMAIN-KEYWORD,chunyan.tech
