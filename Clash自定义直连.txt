@@ -56,6 +56,8 @@ payload:
   - DOMAIN-KEYWORD,115.com
   - DOMAIN-SUFFIX,docs.oracle.com,DIRECT
   - DOMAIN-KEYWORD,test-ipv6.com
+  - DOMAIN-KEYWORD,hf-mirror.com
+
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
   - PROCESS-NAME,leaf
