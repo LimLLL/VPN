@@ -1,5 +1,7 @@
 payload:
-  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  # Fiberstate 5700g机器
+  - IP-CIDR,38.58.182.3/32,no-resolve
+  - IP-CIDR,172.16.0.0/12,no-resolve
   - DOMAIN-KEYWORD,4.a.f.e.0.7.4.0.1.0.0.2
   - DOMAIN-KEYWORD,oo9.dpdns.org
   - DOMAIN-KEYWORD,wqd.me
