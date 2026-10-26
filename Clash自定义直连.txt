@@ -12,6 +12,7 @@ payload:
   - DOMAIN-KEYWORD,zhuanxiangzhaiquan.com # 专项债券信息网
   - DOMAIN-KEYWORD,chinabond
   - DOMAIN-KEYWORD,bhzh.tech
+  - DOMAIN-KEYWORD,useforall.com
   - DOMAIN-KEYWORD,useforall.top
   - DOMAIN-KEYWORD,eo.mk
   - DOMAIN-SUFFIX,cscse.edu.cn # 教留服
